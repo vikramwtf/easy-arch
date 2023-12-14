@@ -1,8 +1,8 @@
-![](https://img.shields.io/github/license/classy-giraffe/easy-arch?label=License)
-![](https://img.shields.io/github/stars/classy-giraffe/easy-arch?label=Stars)
-![](https://img.shields.io/github/forks/classy-giraffe/easy-arch?label=Forks)
+![](https://img.shields.io/github/license/vikramwtf/easy-arch?label=License)
+![](https://img.shields.io/github/stars/vikramwtf/easy-arch?label=Stars)
+![](https://img.shields.io/github/forks/vikramwtf/easy-arch?label=Forks)
 
-[easy-arch](https://github.com/classy-giraffe/easy-arch) is a **bash script** that boostraps [Arch Linux](https://archlinux.org/) with sane defaults.
+[easy-arch](https://github.com/vikramwtf/easy-arch) is a **bash script** that boostraps [Arch Linux](https://archlinux.org/) with sane defaults.
 
 - **BTRFS snapshots**: you will have a resilient set up that will automatically takes snapshots of your volumes based on a weekly schedule
 - **LUKS2 encryption**: your data will live on a LUKS2 partition protected by a password
@@ -18,7 +18,7 @@
 ## Alternative Methods (manual)
 
 ```bash 
-wget -O easy-arch.sh https://raw.githubusercontent.com/classy-giraffe/easy-arch/main/easy-arch.sh
+wget -O easy-arch.sh https://raw.githubusercontent.com/vikramwtf/easy-arch/main/easy-arch.sh
 chmod +x easy-arch.sh
 bash easy-arch.sh
 ```
